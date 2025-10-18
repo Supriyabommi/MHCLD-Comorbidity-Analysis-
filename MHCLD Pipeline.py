@@ -136,7 +136,7 @@ class AnalysisConfiguration:
     # Data paths
     DATA_FILE_PATH: str = os.environ.get(
         "MHCLD_DATA_PATH",
-        r"C:\Users\supri\OneDrive\Desktop\DAEN 3rd SEM\AIT 736\mhcld_puf_2021.csv"
+        r"C:\path\to\mhcld_puf_2021.csv"
     )
     OUTPUT_DIRECTORY: str = os.environ.get("MHCLD_OUTPUT_DIR", "./publication_outputs")
     RANDOM_SEED: int = 42
